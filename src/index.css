@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main-div{
+  width: 100%;
+  height: 100vh;
+  /* background: #6983aa; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center-div{
+  width: 25%;
+  height: 80vh;
+  background-color:lavender;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.h1{
+  color: white;
+  font-family: cursive;
+  background: transparent;
+  background-color: #0b070f;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.input{
+  font-family: cursive;
+  text-align: right;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+.button{
+  min-height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color:whitesmoke;
+  /* color: #fff; */
+  font-size: 25px;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  border: none;
+  margin-top:25px ;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover{
+  background-color: #20bf6b;
+}
+
+.button03{
+  min-height: 45px;
+  width:fit-content;
+  /* border-radius: 50%; */
+  border-color: transparent;
+  background-color: whitesmoke;
+  /* color: #fff; */
+  font-size: 15px;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  border: none;
+  margin-top:15px ;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.button03:hover{
+  background-color: #20bf6b;
+}
+
