@@ -76,7 +76,11 @@ const Display = () => {
     }
 
     const calculate = (e) =>{
+        if(first===true){
+            setinput("")
+        }else{
         setinput(eval(input).toString())
+        }
     }
 
     const squareRoot = (e) =>{
