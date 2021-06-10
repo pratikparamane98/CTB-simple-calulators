@@ -6,8 +6,8 @@ import { Button } from '@material-ui/core';
 
 export const button = (props) => {
     // const classes = UseStyles();
-    var data=['0','1','2','3','4','5','6','7','8','9']
-    var data2=['+','-','*','/']
+    const data=['0','1','2','3','4','5','6','7','8','9']
+    const data2=['+','-','*','/']
 
     // const [show, setShow] = useState(false)//will toggle the scientific button
 
