@@ -3,6 +3,7 @@ import Display from './components/display/Display.js'
 import React, { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
+import {Button,Box} from '@material-ui/core'
 
 const StyledApp = styled.div`
   color: ${(props) => props.theme.fontColor};
@@ -16,17 +17,17 @@ function App() {
       theme === "light" ? setTheme("dark") : setTheme("light");
     };
   return (
-    <>
+    <div>
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <button className= "button02" onClick={() => themeToggler()}>Change BG</button>
-
+      <Box textAlign="center">
+      <Button variant = "outlined" color="secondary" onClick={() => themeToggler()}>Change BG</Button>
+      </Box>
         {/* <StyledApp>
         </StyledApp> */}
     </ThemeProvider>
     <Display/>
-</>
-
+    </div>
   );
 }
 

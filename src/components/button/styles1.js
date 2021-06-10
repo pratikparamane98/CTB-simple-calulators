@@ -12,6 +12,6 @@ export default makeStyles({
       padding: '0 30px',
       marginLeft:'10px',
       marginRight:'10px',
-      marginTop:'10px'
+      marginTop:'10px',      
     },
   });

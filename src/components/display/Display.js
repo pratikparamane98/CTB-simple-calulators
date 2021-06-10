@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import Button from '../button/Keypad.js'
-// import '../display.css'
 
 
 
@@ -8,8 +7,6 @@ import Button from '../button/Keypad.js'
 
 const Display = () => {
     var evaluate
-    // arra operators
-
     const [input, setinput] = useState("")
     
 
@@ -45,17 +42,15 @@ const Display = () => {
              else{
                setinput(eval(input).toString() + (data2));
              }
-        
+            }
 
-    }}
+    }
 
 
 
 
     const clear=()=>{
         setinput('');
-        // setFirst(true)
-
     }
 
     const backspace = () =>{
@@ -68,8 +63,6 @@ const Display = () => {
         }else{
         setinput(eval(input).toString())
         }
-        // var e = setinput(eval(input))
-        // console.log(e)
     }
 
     const squareRoot = (e) =>{
@@ -83,7 +76,6 @@ const Display = () => {
 
     function SignClick(){
         setinput((eval(input)*(-1)).toString());
-        // setFirst(false)
       }
 
     return (

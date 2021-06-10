@@ -32,7 +32,7 @@ import UseStyles from './styles1'
                     <button className="button" onClick={()=>props.allowed(data[7])}>7</button>
                     <button className="button" onClick={()=>props.allowed(data[8])}>8</button>
                     <button className="button" onClick={()=>props.allowed(data[9])}>9</button>
-                    <button className="button" onClick={()=>props.operator(data[2])}>*</button>
+                    <button className="button" onClick={()=>props.operator(data2[2])}>*</button>
                 </div>
                 <div>
                     <button className="button" onClick={()=>props.allowed(data[0])}>0</button>
@@ -44,15 +44,15 @@ import UseStyles from './styles1'
                     <Button className={classes.root}  onClick={()=>props.clearr()}>clear</Button>
                     <Button className={classes.root} onClick={() => setShow(!show)}>Scientific Mode</Button>
                 </div>
-                        
+                <br></br>      
                 {show?
                     <div>
-                        <button className="button03"onClick={()=>props.signCl()}>Sign</button>
-                        <button className="button03" onClick={()=>props.sqr()} >Square</button>
-                        <button className="button03" onClick={()=>props.sqrt()}>Square Root</button>
+                        <Button color="primary"onClick={()=>props.signCl()}>Sign</Button>
+                        <Button color="primary" onClick={()=>props.sqr()} >Square</Button>
+                        <Button  color="primary" onClick={()=>props.sqrt()}>Square Root</Button>
                     </div>
                 :null} 
-
+                <br></br>
             </div>  
         </div>
     )
