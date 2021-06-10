@@ -1,5 +1,5 @@
 import './App.css';
-import Display from './components/Display.js'
+import Display from './components/display/Display.js'
 import React, { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";

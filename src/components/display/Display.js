@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
-import Button from '../components/button.js'
+import Button from '../button/button.js'
+// import '../display.css'
 
 
 
