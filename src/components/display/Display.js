@@ -82,7 +82,7 @@ const Display = () => {
         <div className="main-div">
             <div className="center-div">
             <br></br>
-            <h1 className="h1">Calculator</h1>
+            <h1 className="h1">CALCULATOR</h1>
             <br></br>
             <input type="text" className = "input" value={input} autoComplete="off" placeholder="0"></input>
             <Button allowed = {handleClick}
